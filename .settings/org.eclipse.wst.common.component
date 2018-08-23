@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="amp-common-ear">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="amp-business-bean.jar" deploy-path="/" handle="module:/resource/amp-business-bean/amp-business-bean">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-fb-manager-bean.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/amp/fb/manager/bean/amp-fb-manager-bean/0.0.1-SNAPSHOT/amp-fb-manager-bean-0.0.1-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-ui-views.war" deploy-path="/" handle="module:/classpath/var/M2_REPO/amp/ui/views/amp-ui-views/0.0.1-SNAPSHOT/amp-ui-views-0.0.1-SNAPSHOT.war">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-ws-api.war" deploy-path="/" handle="module:/classpath/var/M2_REPO/amp/ws/api/amp-ws-api/0.0.1-SNAPSHOT/amp-ws-api-0.0.1-SNAPSHOT.war">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.12.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/log4j/log4j/1.2.12/log4j-1.2.12.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-jpa-entities-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/resource/amp-jpa-entities/amp-jpa-entities">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-entitymanager-3.4.0.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-entitymanager/3.4.0.GA/hibernate-entitymanager-3.4.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ejb3-persistence-1.0.2.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations-3.1.0.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-annotations-3.4.0.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-core-3.3.0.SP1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/hibernate-core/3.3.0.SP1/hibernate-core-3.3.0.SP1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/antlr/antlr/2.7.6/antlr-2.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta-1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/transaction/jta/1.1/jta-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.4.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javassist/javassist/3.4.GA/javassist-3.4.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="oracle-jdbc-11.1.0.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/oracle/oracle-jdbc/11.1.0.7/oracle-jdbc-11.1.0.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.0.0.GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guava-18.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflections-0.9.9-RC1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.16.1-GA.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/javassist/javassist/3.16.1-GA/javassist-3.16.1-GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.0-api-1.0.1.Final.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-common-api-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/resource/amp-common-api/amp-common-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.38.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-context-support/3.2.3.RELEASE/spring-context-support-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-webmvc/3.2.3.RELEASE/spring-webmvc-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-tx/3.2.3.RELEASE/spring-tx-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-orm/3.2.3.RELEASE/spring-orm-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-jdbc/3.2.3.RELEASE/spring-jdbc-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-3.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-jms/3.2.3.RELEASE/spring-jms-3.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-batch-core-3.0.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/batch/spring-batch-core/3.0.3.RELEASE/spring-batch-core-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.ibm.jbatch-tck-spi-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/jbatch/com.ibm.jbatch-tck-spi/1.0/com.ibm.jbatch-tck-spi-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.batch-api-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/batch/javax.batch-api/1.0/javax.batch-api-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xstream-1.4.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlpull-1.1.3.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xpp3_min-1.1.4c.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-batch-infrastructure-3.0.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/batch/spring-batch-infrastructure/3.0.3.RELEASE/spring-batch-infrastructure-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-batch-integration-3.0.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/batch/spring-batch-integration/3.0.3.RELEASE/spring-batch-integration-3.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-integration-core-4.0.1.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/integration/spring-integration-core/4.0.1.RELEASE/spring-integration-core-4.0.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-retry-1.1.0.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/retry/spring-retry/1.1.0.RELEASE/spring-retry-1.1.0.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.0.5.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/spring-messaging/4.0.5.RELEASE/spring-messaging-4.0.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-batch-admin-manager-1.2.1.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/batch/spring-batch-admin-manager/1.2.1.RELEASE/spring-batch-admin-manager-1.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjrt-1.6.6.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/aspectj/aspectjrt/1.6.6/aspectjrt-1.6.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjweaver-1.6.6.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/aspectj/aspectjweaver/1.6.6/aspectjweaver-1.6.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-integration-jmx-2.0.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/integration/spring-integration-jmx/2.0.3.RELEASE/spring-integration-jmx-2.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-integration-http-2.0.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/integration/spring-integration-http/2.0.3.RELEASE/spring-integration-http-2.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-integration-file-2.0.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/integration/spring-integration-file/2.0.3.RELEASE/spring-integration-file-2.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-dbcp-1.2.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.3.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-pool/commons-pool/1.3/commons-pool-1.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang-2.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-lang/commons-lang/2.1/commons-lang-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.2.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-core-2.3.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/net/sf/ehcache/ehcache-core/2.3.0/ehcache-core-2.3.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-collections/commons-collections/3.2/commons-collections-3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.15.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/freemarker/freemarker/2.3.15/freemarker-2.3.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-batch-admin-resources-1.2.1.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/springframework/batch/spring-batch-admin-resources/1.2.1.RELEASE/spring-batch-admin-resources-1.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-apis-1.0.b2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cglib-2.1_3.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/cglib/cglib/2.1_3/cglib-2.1_3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="asm-1.5.3.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/asm/asm/1.5.3/asm-1.5.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-core-5.5.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/lucene/lucene-core/5.5.2/lucene-core-5.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-analyzers-common-5.5.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/lucene/lucene-analyzers-common/5.5.2/lucene-analyzers-common-5.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lucene-analyzers-3.6.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/lucene/lucene-analyzers/3.6.2/lucene-analyzers-3.6.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.5.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-jdk14-1.7.5.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-jdk14/1.7.5/slf4j-jdk14-1.7.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcl-over-slf4j-1.7.5.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-simple-1.7.5.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-data-handler-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/resource/amp-data-handler/amp-data-handler">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-pa-client-rest-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/resource/aws-pa-client-rest/aws-pa-client-rest">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis-1.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/axis/axis/1.4/axis-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis-jaxrpc-1.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/axis/axis-jaxrpc/1.4/axis-jaxrpc-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis-saaj-1.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/axis/axis-saaj/1.4/axis-saaj-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis-wsdl4j-1.5.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/axis/axis-wsdl4j/1.5.1/axis-wsdl4j-1.5.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-discovery-0.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-discovery/commons-discovery/0.2/commons-discovery-0.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.10.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-httpclient-3.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="opensaml-2.6.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/opensaml/opensaml/2.6.4/opensaml-2.6.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="openws-1.5.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/opensaml/openws/1.5.4/openws-1.5.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmltooling-1.4.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/opensaml/xmltooling/1.4.4/xmltooling-1.4.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bcprov-jdk15on-1.51.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="not-yet-commons-ssl-0.3.9.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/ca/juliusdavies/not-yet-commons-ssl/0.3.9/not-yet-commons-ssl-0.3.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="velocity-1.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="esapi-2.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/owasp/esapi/esapi/2.0.1/esapi-2.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/joda-time/joda-time/2.2/joda-time-2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="serializer-2.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/xalan/serializer/2.7.2/serializer-2.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xalan-2.7.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/xalan/xalan/2.7.1/xalan-2.7.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wsdl4j-1.6.3.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/wsdl4j/wsdl4j/1.6.3/wsdl4j-1.6.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wss4j-1.5.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/wss4j/wss4j/1.5.1/wss4j-1.5.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.apache.servicemix.bundles.xerces-2.11.0_1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/servicemix/bundles/org.apache.servicemix.bundles.xerces/2.11.0_1/org.apache.servicemix.bundles.xerces-2.11.0_1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlsec-2.0.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/santuario/xmlsec/2.0.7/xmlsec-2.0.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="woodstox-core-asl-4.4.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-api-1.0-2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax2-api-3.1.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ejb-api-3.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/ejb/ejb-api/3.0/ejb-api-3.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javaee-api-6.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/javaee-api/6.0/javaee-api-6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-fb-restfb-api-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/amp/fb/restfb/api/amp-fb-restfb-api/0.0.1-SNAPSHOT/amp-fb-restfb-api-0.0.1-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="restfb-1.39.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/restfb/restfb/1.39.0/restfb-1.39.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="amp-text-processor-api-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/amp/text/processor/api/amp-text-processor-api/0.0.1-SNAPSHOT/amp-text-processor-api-0.0.1-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-simple-1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang3-3.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-sdk-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/java-sdk/3.7.2/java-sdk-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="alchemy-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/alchemy/3.7.2/alchemy-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="conversation-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/conversation/3.7.2/conversation-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/core/3.7.2/core-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dialog-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/dialog/3.7.2/dialog-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="discovery-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/discovery/3.7.2/discovery-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="document-conversion-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/document-conversion/3.7.2/document-conversion-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="language-translation-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/language-translation/3.7.2/language-translation-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="language-translator-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/language-translator/3.7.2/language-translator-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="natural-language-classifier-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/natural-language-classifier/3.7.2/natural-language-classifier-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="natural-language-understanding-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/natural-language-understanding/3.7.2/natural-language-understanding-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="personality-insights-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/personality-insights/3.7.2/personality-insights-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="retrieve-and-rank-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/retrieve-and-rank/3.7.2/retrieve-and-rank-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="speech-to-text-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/speech-to-text/3.7.2/speech-to-text-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="text-to-speech-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/text-to-speech/3.7.2/text-to-speech-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tone-analyzer-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/tone-analyzer/3.7.2/tone-analyzer-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tradeoff-analytics-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/tradeoff-analytics/3.7.2/tradeoff-analytics-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="visual-recognition-3.7.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/ibm/watson/developer_cloud/visual-recognition/3.7.2/visual-recognition-3.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="okhttp-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/okhttp/3.6.0/okhttp-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="okio-1.11.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/squareup/okio/okio/1.11.0/okio-1.11.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="logging-interceptor-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/logging-interceptor/3.6.0/logging-interceptor-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="okhttp-urlconnection-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/squareup/okhttp3/okhttp-urlconnection/3.6.0/okhttp-urlconnection-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.8.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-jsr166e-2.22.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/glassfish/jersey/bundles/repackaged/jersey-jsr166e/2.22.2/jersey-jsr166e-2.22.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.enterprise.concurrent-api-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/enterprise/concurrent/javax.enterprise.concurrent-api/1.0/javax.enterprise.concurrent-api-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-json-1.17.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/sun/jersey/jersey-json/1.17.1/jersey-json-1.17.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jettison-1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-impl-2.2.3-1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-api-2.2.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-asl-1.9.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-mapper-asl-1.9.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-1.9.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-xc-1.9.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-core-1.17.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-client-1.17.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/sun/jersey/jersey-client/1.17.1/jersey-client-1.17.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail-1.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/mail/mail/1.4/mail-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/activation/activation/1.1/activation-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

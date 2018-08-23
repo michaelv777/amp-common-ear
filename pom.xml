@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>amp-common-ear</groupId>
+  <artifactId>amp.common.ear</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>ear</packaging>
+  <name>amp-common-ear</name>
+  <description>amp-common-ear</description>
+  
+  <parent>
+  	<groupId>amp.framework</groupId>
+  	<artifactId>amp-framework</artifactId>
+  	<version>1.0-SNAPSHOT</version>
+  </parent>
+  
+  <build>
+  	<finalName>amp-common-ear</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-ear-plugin</artifactId>
+        <version>2.10</version>
+        <configuration>
+        
+          <earSourceDirectory>EarContent</earSourceDirectory>
+          <version>6</version>
+          <defaultLibBundleDir>lib</defaultLibBundleDir>
+        
+          <source>1.8</source>
+          <target>1.8</target>
+          <encoding>UTF-8</encoding>
+      	    
+          <modules>
+          
+            <ejbModule>
+             <groupId>amp.business.bean</groupId>
+  			 <artifactId>amp-business-bean</artifactId>
+  			 <bundleFileName>amp-business-bean.jar</bundleFileName>
+            </ejbModule>
+            
+            
+            <ejbModule>
+             <groupId>amp.fb.manager.bean</groupId>
+  			 <artifactId>amp-fb-manager-bean</artifactId>
+  			 <bundleFileName>amp-fb-manager-bean.jar</bundleFileName>
+            </ejbModule>
+            
+            <webModule>
+             <groupId>amp.ui.views</groupId>
+  			 <artifactId>amp-ui-views</artifactId>
+  			 <uri>amp-ui-views.war</uri>
+             <bundleFileName>amp-ui-views.war</bundleFileName>
+            </webModule>
+           
+            <webModule>
+             <groupId>amp.ws.api</groupId>
+  			 <artifactId>amp-ws-api</artifactId>
+  			 <uri>amp-ws-api.war</uri>
+             <bundleFileName>amp-ws-api.war</bundleFileName>
+            </webModule>
+            
+          </modules>
+           
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+  	
+  <dependencies>
+  	
+       <dependency>
+        <groupId>amp.business.bean</groupId>
+ 		<artifactId>amp-business-bean</artifactId>
+ 		<version>0.0.1-SNAPSHOT</version>
+ 		<type>ejb</type>
+       </dependency>
+        
+       <dependency>
+        <groupId>amp.fb.manager.bean</groupId>
+ 		<artifactId>amp-fb-manager-bean</artifactId>
+ 		<version>0.0.1-SNAPSHOT</version>
+ 		<type>ejb</type>
+       </dependency>
+        
+       <dependency>
+        <groupId>amp.ws.api</groupId>
+ 		<artifactId>amp-ws-api</artifactId>
+ 		<version>0.0.1-SNAPSHOT</version>
+ 		<type>war</type>
+       </dependency>
+
+       <dependency>
+        <groupId>amp.ui.views</groupId>
+ 		<artifactId>amp-ui-views</artifactId>
+ 		<version>0.0.1-SNAPSHOT</version>
+ 		<type>war</type>
+       </dependency>
+        
+  </dependencies>
+</project>

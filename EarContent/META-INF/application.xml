@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" id="Application_ID" version="6">
+  <display-name>amp-common-ear</display-name>
+  <module>
+    <ejb>amp-business-bean.jar</ejb>
+  </module>
+  <module>
+    <ejb>amp-fb-manager-bean.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>amp-ui-views.war</web-uri>
+      <context-root>allmarket</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>amp-ws-api.war</web-uri>
+      <context-root>amp-ws-api</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
